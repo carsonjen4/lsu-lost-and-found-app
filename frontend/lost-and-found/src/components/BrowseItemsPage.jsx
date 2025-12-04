@@ -188,6 +188,9 @@ const BrowseItemsPage = () => {
 
       {/* Compact Header */}
       <header className="main-header">
+       <div className="header-left">
+        <Link to="/" className="home-button">Home</Link>
+       </div>
         <h1>Browse Items</h1>
       </header>
 
